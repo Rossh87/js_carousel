@@ -1,0 +1,26 @@
+.arrow-bar {
+	display: flex;
+	background-color: transparent;
+	width: 100%;
+	justify-content: space-between;
+	padding: 0 2rem;
+	position: absolute;
+	top: 50%;
+}
+
+.arrow {
+	cursor: pointer;
+	width: 0;
+	height: 0;
+	border-style: solid;
+
+	&.arrow-right {
+		border-width: 30px 0 30px 40px;
+		border-color: transparent transparent transparent red;
+	}
+
+	&.arrow-left {
+		border-width: 30px 40px 30px 0;
+		border-color: transparent red transparent transparent;
+	}
+}

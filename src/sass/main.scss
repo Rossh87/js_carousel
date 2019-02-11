@@ -1,6 +1,4 @@
 // 1. Config files and helper
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 @import 'abstracts/colors';
 @import 'abstracts/type';
 
@@ -11,8 +9,8 @@
 @import 'base/base';
 @import 'base/typography';
 
-
 // 4. Layout
+@import 'layout/slider';
 
 // 5. Components
 

@@ -1,0 +1,40 @@
+#slider, .wrap, .slide-content {
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+.wrap {
+	position: relative;
+}
+
+.slide {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.slide1 {
+	background-image: url('../public/pexels-photo-1233528.jpeg');
+}
+
+.slide2 {
+	background-image: url('../public/pexels-photo-302894.jpeg');
+}
+
+.slide3 {
+	background-image: url('../public/pexels-photo-414645.jpeg');
+}
+
+.slide-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	span {
+		font-size: 5rem;
+		color: $white;
+	}
+}
+
