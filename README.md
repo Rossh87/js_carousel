@@ -1,2 +1,2 @@
-# responsive-demo
-Basic workflow demo for a responsive site.  Updated 12/29/2018.
+#js-carousel
+Simple script to 'carouselize' images in HTML markup.
